@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Dogs</title>
+    <style>
+        label, input { display: block; }
+    </style>
+</head>
+<body>
+    <h1>Corona Dogs</h1>
+    <form action="http://localhost:3000/dogs" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter dog's name"/>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter dog's age"/>
+        <br>
+        <input type="submit" value="Add your dog!"/>
+    </form>
+</body>
+</html>
